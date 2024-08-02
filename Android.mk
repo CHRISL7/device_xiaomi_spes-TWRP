@@ -10,4 +10,6 @@ ifeq ($(TARGET_DEVICE),spes)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
+include $(CLEAR_VARS)
+
 endif
